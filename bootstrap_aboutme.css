@@ -50,6 +50,16 @@ span {
   margin-left: 690px;
 
 }
+.footp {
+  font-size: 30px;
+  margin-left: 100px;
+  padding: 10px 0px;
+}
+#force {
+  font-size: 30px;
+  margin-left: 100px;
+  padding: 10px 0px;
+}
 #quote2 {
   margin-left: 845px;
 
@@ -61,6 +71,17 @@ span {
 #back {
   background-color: #e8e8e8;
   margin: 0px 70px 0px 70px;
+  -webkit-box-shadow: 5px 5px 15px #888;
+    -moz-box-shadow: 5px 5px 15px #888;
+    box-shadow: 5px 5px 15px #888;
+}
+#foot {
+  background-color: #000000;
+/*  margin: 0px 0px 0px 0px;
+   -webkit-box-shadow: 5px 5px 15px #888;
+    -moz-box-shadow: 5px 5px 15px #888;
+    box-shadow: 5px 5px 15px #888;*/
+  
 }
 #itxt{
   margin-left: 10px;
@@ -4463,10 +4484,12 @@ input[type="submit"].btn.btn-mini {
   font-weight: 200;
   color: #777777;
   text-shadow: 0 1px 0 #ffffff;
+  cursor: pointer;
 }
 
 .navbar .brand:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .navbar-text {
@@ -6108,6 +6131,11 @@ a.badge:hover {
 }
 #nav {
   background-color: #d0d0d0;
+}
+#fix{
+  position: fixed;
+  z-index: 1;
+  margin: 0px auto;
 }
 .hero-unit {
   padding: 60px;
